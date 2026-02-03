@@ -1,5 +1,5 @@
 {
-  "name": "HACS",
+  "name": "svitlobot-ha-stat",
   "zip_release": false,
   "hide_default_branch": true,
   "homeassistant": "2025.3.0",
