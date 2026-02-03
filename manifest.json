@@ -1,0 +1,11 @@
+{
+  "domain": "svitlobot",
+  "name": "Svitlobot Kyiv Power Statistics",
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://github.com/your-repo/svitlobot",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/your-repo/svitlobot/issues",
+  "requirements": ["aiohttp>=3.8.0"],
+  "version": "1.0.0"
+}

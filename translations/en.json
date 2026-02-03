@@ -1,0 +1,40 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Svitlobot Power Statistics",
+        "description": "Select a city to monitor power outage statistics from Svitlobot.",
+        "data": {
+          "city": "City"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This city is already configured."
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "api_connectivity": {
+        "name": "API Connectivity"
+      }
+    },
+    "sensor": {
+      "total_channels": {
+        "name": "Total Channels"
+      },
+      "power_on": {
+        "name": "Power On"
+      },
+      "power_off": {
+        "name": "Power Off"
+      },
+      "power_on_percent": {
+        "name": "Power On Percent"
+      },
+      "power_off_percent": {
+        "name": "Power Off Percent"
+      }
+    }
+  }
+}

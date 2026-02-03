@@ -1,0 +1,40 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Svitlobot Статистика Електропостачання",
+        "description": "Оберіть місто для моніторингу статистики відключень від Svitlobot.",
+        "data": {
+          "city": "Місто"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Це місто вже налаштовано."
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "api_connectivity": {
+        "name": "Доступність API"
+      }
+    },
+    "sensor": {
+      "total_channels": {
+        "name": "Всього каналів"
+      },
+      "power_on": {
+        "name": "Зі світлом"
+      },
+      "power_off": {
+        "name": "Без світла"
+      },
+      "power_on_percent": {
+        "name": "Зі світлом %"
+      },
+      "power_off_percent": {
+        "name": "Без світла %"
+      }
+    }
+  }
+}
