@@ -28,7 +28,7 @@ jobs:
         shell: "bash"
         run: |
           cd "${{ github.workspace }}/custom_components/svitlobot-ha-stat"
-          zip bms_ble.zip -r ./
+          zip svitlobot-ha-stat.zip -r ./
 
       - name: "Upload .zip to the release"
         uses: softprops/action-gh-release@v2.2.1
