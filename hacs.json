@@ -1,8 +1,8 @@
 {
   "name": "HACS",
-  "zip_release": true,
+  "zip_release": false,
   "hide_default_branch": true,
   "homeassistant": "2025.3.0",
   "hacs": "0.19.0",
-  "filename": "hacs.zip"
+  "filename": "svitlobot-ha-stat.zip"
 }
